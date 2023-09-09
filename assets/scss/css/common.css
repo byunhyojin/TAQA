@@ -3,6 +3,11 @@
   margin: 0 auto;
 }
 
+.wrapper {
+  min-width: 980px;
+  overflow: hidden;
+}
+
 .blind {
   position: absolute;
   height: 1px;

@@ -8,9 +8,11 @@ $(function(){
     intro.to('.loading .t-logo',{opacity:1})
     intro.to('.loading .t-logo',{opacity:0,})
     intro.to('.loading',{height:0});
-    $('.about-nav').hover(function(e){
-        e.preventDefault();
-        $(this).next().toggleClass('on')
+    $('.nav-item').hover(function(){
+       
+        $(this).find('.about-sub').stop().slideDown()
+    },function(){
+        $(this).find('.about-sub').stop().slideUp()
     });
     
     $(window).scroll(function(){
@@ -69,7 +71,7 @@ $(function(){
         },
         breakpoints: {
             980: {
-                  slidesPerView: 3,  //브라우저가 1200보다 클 때
+                  slidesPerView: 3,  
                 
                 },
               },
@@ -82,7 +84,7 @@ $(function(){
         },
         breakpoints: {
             980: {
-                  slidesPerView: 3,  //브라우저가 1200보다 클 때
+                  slidesPerView: 3,  
                  
                 },
               },

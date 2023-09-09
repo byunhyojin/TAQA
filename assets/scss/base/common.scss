@@ -1,7 +1,10 @@
 .inner{
     max-width: 1600px;
     margin: 0 auto;
-   
+}
+.wrapper{
+min-width: 980px;
+overflow: hidden;
 }
 .blind{
     position: absolute;
