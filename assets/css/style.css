@@ -51,7 +51,7 @@ body {
 }
 
 .wrapper {
-  min-width: 980px;
+  width: 980px;
   overflow: hidden;
 }
 
